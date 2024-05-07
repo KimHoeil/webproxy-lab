@@ -1,7 +1,36 @@
 <html>
-<head><title>test</title></head>
-<body> 
-<img align="middle" src="godzilla.gif">
-Dave O'Hallaron
-</body>
+    <head>
+        <title>Tiny server homework!</title>
+    </head>
+    <body>
+        <img align="middle" src="godzilla.gif" />
+        <div>
+            <h1>Add function</h1>
+            <form
+                action="./cgi-bin/adder"
+                accept-charset="uft-8"
+                name="add_function"
+                method="get"
+            >
+                <input
+                    style="display: inline-block"
+                    type="number"
+                    placeholder="insert any number"
+                    id="n1"
+                    name="n1"
+                />
+                <p style="display: inline-block">+</p>
+                <input
+                    style="display: inline-block"
+                    type="number"
+                    placeholder="insert any number"
+                    id="n2"
+                    name="n2"
+                />
+                <input type="submit" value="submit" />
+            </form>
+        </div>
+
+        Dave O'Hallaron
+    </body>
 </html>
